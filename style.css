@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white; 
+    line-height: 5rem;  
+}
+.choices{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    cursor:pointer;
+    background-color: #081b31;
+}
+img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:5rem;
+    margin-top: 4rem;
+}
+#your-score,#computer-score{
+    font-size: 4rem;
+}
+
+.msg{
+    margin-top: 4rem;
+}
+#result{
+    font-size: 2rem;
+    background-color: #081b31;
+    color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heading{
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: rgb(18, 18, 61);
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(255, 252, 223);
+}
+.container>.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 40px;
+    object-fit:fill;
+}
+.box:hover{
+    border: 8px solid black;
+}
+.container{
+    height: 40vh;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score>.your_score{
+    margin-right:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score>.computer_score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result{
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result>p{
+    font-size: 30px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    color:white
+} */
